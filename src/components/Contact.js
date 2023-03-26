@@ -6,7 +6,26 @@ import { useForm, ValidationError } from '@formspree/react';
 export default function Contact() {
   const [state, handleSubmit] = useForm("xvonbnge");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return (
+      <>
+<div
+  class="mb-3 inline-flex w-full items-center rounded-lg bg-success-100 py-5 px-6 text-base text-success-700"
+  role="alert">
+  <span class="mr-2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      class="h-5 w-5">
+      <path
+        fill-rule="evenodd"
+        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+        clip-rule="evenodd" />
+    </svg>
+  </span>
+  Thank you!
+</div>      </>
+      );
   }
 
   return (
@@ -56,6 +75,27 @@ export default function Contact() {
           </h2>
           <p className="leading-relaxed mb-5">
           Neil is always available for side collaborations and talks worldwide. If you want to chat about Web sites or anything else, don’t hesitate in reaching out.</p>
+    <div className="relative mb-4">
+
+<label htmlFor="name" className="leading-7 text-sm text-gray-400">
+  Name
+</label>
+<input
+  id="name"
+  type="text" 
+  name="name"
+  className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+/>
+
+<ValidationError 
+  prefix="Name" 
+  field="name"
+  errors={state.errors}
+/>
+    </div>
+
+
+
     <div className="relative mb-4">
 
     <label htmlFor="email" className="leading-7 text-sm text-gray-400">
