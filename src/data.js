@@ -7,31 +7,47 @@ export const projects = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./images/californila.com.png",
-      link: "https://reactbootcamp.com",
+      link: "http://californila.com/",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Kee Wah Bakery Los Angeles",
+      subtitle: "WordPress + WooCommerce",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.jpg",
-      link: "https://reedbarger.com",
+      image: "./images/keewah.us.png",
+      link: "https://keewah.us/",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Data Gateway Philippines",
+      subtitle: "WordPress + Elementor",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.jpg",
-      link: "https://jsbootcamp.com",
+      image: "./images/datagatewayph.com.png",
+      link: "https://www.datagatewayph.com",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "H&E Comfort Services",
+      subtitle: "WordPress + Elementor",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.jpg",
-      link: "https://pythonbootcamp.com",
+        "H&E Comfort Services is a full-service HVAC company providing quality heating and cooling services to homeowners in the New Orleans area.",
+      image: "./images/hecomfortservices.com.png",
+      link: "https://www.hecomfortservices.com",
+    },
+    {
+      title: "H&E Comfort Services",
+      subtitle: "WordPress + Elementor",
+      description:
+        "H&E Comfort Services is a full-service HVAC company providing quality heating and cooling services to homeowners in the New Orleans area.",
+      image: "./images/hecomfortservices.com.png",
+      link: "https://www.hecomfortservices.com",
+    },
+    {
+      title: "H&E Comfort Services",
+      subtitle: "WordPress + Elementor",
+      description:
+        "H&E Comfort Services is a full-service HVAC company providing quality heating and cooling services to homeowners in the New Orleans area.",
+      image: "./images/hecomfortservices.com.png",
+      link: "https://www.hecomfortservices.com",
     },
   ];
   
