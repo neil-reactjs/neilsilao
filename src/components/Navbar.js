@@ -1,6 +1,6 @@
 // src/components/Navbar.js
 
-import { ArrowRightIcon } from "@heroicons/react/solid";
+import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import React from "react";
 
 export default function Navbar() {
@@ -24,12 +24,12 @@ export default function Navbar() {
             Testimonials
           </a>
         </nav>
-        {/* <a
+        <a
           href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          className="inline-flex items-center text-gray-100 bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:text-gray-400 rounded text-base mt-4 md:mt-0">
           Hire Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
-        </a> */}
+        </a>
       </div>
     </header>
     </>

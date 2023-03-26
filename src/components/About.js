@@ -14,9 +14,13 @@ export default function About() {
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+          Neil holds a Bachelor’s degree in Computer Science from AMA Computer College Makati Branch and is passionate about building Web sites.
+          <br />
+          <br />
+          He maintains Web sites as a freelancer.
+          <br />
+          <br />
+          He loves movies, music, electronic gadgets, and coffee.
           </p>
           <div className="flex justify-center">
             <a
