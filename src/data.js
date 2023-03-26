@@ -3,9 +3,9 @@
 export const projects = [
     {
       title: "Californila.com",
-      subtitle: "WordPress + Elementor",
+      subtitle: "WordPress + WooCommerce",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Having difficulty buying from US stores, or simply don’t have the time? Let Californila make your purchases, so you can get more of what the US has to offer!",
       image: "./images/californila.com.png",
       link: "http://californila.com/",
     },
@@ -13,7 +13,7 @@ export const projects = [
       title: "Kee Wah Bakery Los Angeles",
       subtitle: "WordPress + WooCommerce",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Kee Wah was originally founded in Hong Kong in 1938. The Company is well known in Hong Kong and overseas for its signature products.",
       image: "./images/keewah.us.png",
       link: "https://keewah.us/",
     },
@@ -21,9 +21,9 @@ export const projects = [
       title: "Data Gateway Philippines",
       subtitle: "WordPress + Elementor",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Get top-grade content services with agile delivery from Data Gateway Philippines",
       image: "./images/datagatewayph.com.png",
-      link: "https://www.datagatewayph.com",
+      link: "https://www.datagatewayph.com/",
     },
     {
       title: "H&E Comfort Services",
@@ -31,23 +31,23 @@ export const projects = [
       description:
         "H&E Comfort Services is a full-service HVAC company providing quality heating and cooling services to homeowners in the New Orleans area.",
       image: "./images/hecomfortservices.com.png",
-      link: "https://www.hecomfortservices.com",
+      link: "https://www.hecomfortservices.com/",
     },
     {
-      title: "H&E Comfort Services",
+      title: "The Jewelry Forum",
+      subtitle: "WordPress + Elementor",
+      description:
+        "We are an online jewelry reviews platform, bringing jewelry shoppers and sellers together. If you got jewelry to sell or want to buy one, this is the place.",
+      image: "./images/thejewelryforum.com.png",
+      link: "https://thejewelryforum.com/",
+    },
+    {
+      title: "The Influencer Forum",
       subtitle: "WordPress + Elementor",
       description:
         "H&E Comfort Services is a full-service HVAC company providing quality heating and cooling services to homeowners in the New Orleans area.",
-      image: "./images/hecomfortservices.com.png",
-      link: "https://www.hecomfortservices.com",
-    },
-    {
-      title: "H&E Comfort Services",
-      subtitle: "WordPress + Elementor",
-      description:
-        "H&E Comfort Services is a full-service HVAC company providing quality heating and cooling services to homeowners in the New Orleans area.",
-      image: "./images/hecomfortservices.com.png",
-      link: "https://www.hecomfortservices.com",
+      image: "./images/theinfluencerforum.com.png",
+      link: "https://theinfluencerforum.com/",
     },
   ];
   
@@ -70,10 +70,14 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "WordPress",
+  "PHP",
+  "jQuery",
+  "CSS",
+  "HTML",
+  "MySQL",
+  "Woocommerce",
+  "Elementor",
+  "Tailwind CSS",
+  "React JS",
 ];

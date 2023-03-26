@@ -24,7 +24,7 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1 text-gray-400">
-                Punta <br />
+                De Carreon St., Punta <br />
                 Aparri, Cagayan
                 Philippines
               </p>
@@ -51,9 +51,7 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
-          </p>
+          Neil is always available for side collaborations and talks worldwide. If you want to chat about Web sites or anything else, don’t hesitate in reaching out.</p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
