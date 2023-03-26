@@ -45,7 +45,7 @@ export const projects = [
       title: "The Influencer Forum",
       subtitle: "WordPress + Elementor",
       description:
-        "H&E Comfort Services is a full-service HVAC company providing quality heating and cooling services to homeowners in the New Orleans area.",
+        "Influencer Forum is here to help you with influencer marketing agencies, reviews, brand management. Influencer marketing reviews, case studies.",
       image: "./images/theinfluencerforum.com.png",
       link: "https://theinfluencerforum.com/",
     },
