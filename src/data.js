@@ -5,7 +5,7 @@ export const projects = [
       title: "Californila.com",
       subtitle: "WordPress + WooCommerce",
       description:
-        "Having difficulty buying from US stores, or simply don’t have the time? Let Californila make your purchases, so you can get more of what the US has to offer!",
+        "Let Californila make your purchases, so you can get more of what the US has to offer!",
       image: "./images/californila.com.png",
       link: "http://californila.com/",
     },
@@ -37,7 +37,7 @@ export const projects = [
       title: "The Jewelry Forum",
       subtitle: "WordPress + Elementor",
       description:
-        "We are an online jewelry reviews platform, bringing jewelry shoppers and sellers together. If you got jewelry to sell or want to buy one, this is the place.",
+        "We are an online jewelry reviews platform, bringing jewelry shoppers and sellers together.",
       image: "./images/thejewelryforum.com.png",
       link: "https://thejewelryforum.com/",
     },
@@ -45,7 +45,7 @@ export const projects = [
       title: "The Influencer Forum",
       subtitle: "WordPress + Elementor",
       description:
-        "Influencer Forum is here to help you with influencer marketing agencies, reviews, brand management. Influencer marketing reviews, case studies.",
+        "Influencer Forum is here to help you with influencer marketing agencies, reviews, brand management.",
       image: "./images/theinfluencerforum.com.png",
       link: "https://theinfluencerforum.com/",
     },
